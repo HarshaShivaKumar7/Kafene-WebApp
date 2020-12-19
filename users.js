@@ -34,7 +34,7 @@ const creationofTableContent = (data) => {
 
 $(document).ready(function() {
 
-    // isLoggedIn()
+    isLoggedIn()
     accessingAPIData()
         $('#search-box').submit((e) => {
             e.preventDefault()
