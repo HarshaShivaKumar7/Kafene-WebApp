@@ -24,7 +24,7 @@ $(document).ready(function() {
                 },
                 success: (success) => {
                     settingLocalStrg('login', true)
-                    alert('login success')
+                    alert('You are Successfully LoggedIn....')
                     window.location.href = '/order.html'
                 }
             });
