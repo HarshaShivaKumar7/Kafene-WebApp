@@ -52,7 +52,7 @@ const settingContent = () => {
 
 
             $(document).ready(function() {
-                // isLoggedIn()
+                isLoggedIn()
                 accessingAPIData()
                 $('.checkbox').change(displayingTables)
             });
