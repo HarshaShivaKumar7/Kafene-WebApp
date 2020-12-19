@@ -19,7 +19,7 @@ const creationofTableContent = () => {
     }
 }
 $(document).ready(function() {
-    // isLoggedIn()
+    isLoggedIn()
     accessingAPIData()
     $('.checkBox').change(displayingTables)
     expired()
